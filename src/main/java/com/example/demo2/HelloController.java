@@ -33,7 +33,7 @@ public class HelloController {
         alert.initModality(Modality.APPLICATION_MODAL);
         alert.initOwner(stage);
         if(caijdo == false)
-            alert.getDialogPane().setContentText("James đang trong một cuộc gọi khác");
+            alert.getDialogPane().setContentText("Linh đang trong một cuộc gọi khác");
         else alert.getDialogPane().setContentText("Bạn không thể liên lạc với người này");
         alert.setTitle("Notification");
         alert.setHeaderText("Không gọi được");
