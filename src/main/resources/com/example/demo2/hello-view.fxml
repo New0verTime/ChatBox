@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+   <children>
+      <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="13.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@.\LongMaBacGiang.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="60.0" prefWidth="480.0">
+         <children>
+            <Button fx:id="call" layoutX="289.0" layoutY="9.0" mnemonicParsing="false" onAction="#loi">
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\phone-call.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="vidcall" layoutX="351.0" layoutY="9.0" mnemonicParsing="false" onAction="#loi">
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\cam-recorder.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="miscell" layoutX="418.0" layoutY="9.0" mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\dots.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="79.0" layoutY="21.0" text="Linh" />
+         </children></AnchorPane>
+      <ScrollPane layoutY="60.0" prefHeight="539.0" prefWidth="480.0">
+         <content>
+            <Pane prefHeight="945.0" prefWidth="478.0">
+               <children>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="744.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="24.0" layoutX="14.0" layoutY="830.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@.\LongMaBacGiang.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="365.0" fitWidth="162.0" layoutX="56.0" layoutY="353.0">
+                     <image>
+                        <Image url="@.\hinh-anh-chuyen-tien-thanh-cong-vietcombank-1-07-12-28-47.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="208.0" layoutY="14.0" prefHeight="17.0" prefWidth="62.0" text="T2 12:43PM" />
+                  <Label layoutX="216.0" layoutY="93.0" text="7:59 AM" />
+                  <Label layoutX="56.0" layoutY="42.0" text="Chào bạn, mình muốn mua acc valorant của bạn" />
+                  <Label layoutX="56.0" layoutY="154.0" text="Giá như thế nào bạn ơi" />
+                  <Label layoutX="56.0" layoutY="744.0" text="Bạn cho mình mượn nick để check với" />
+                  <Label layoutX="56.0" layoutY="830.0" text="OKKKK" />
+                  <Label layoutX="425.0" layoutY="130.0" text="Ok nhé" />
+                  <Label layoutX="354.0" layoutY="773.0" prefHeight="17.0" prefWidth="117.0" text="TK : vipprovippro2004" />
+                  <Label layoutX="336.0" layoutY="860.0" prefHeight="17.0" prefWidth="135.0" text="Bạn check xong chưa? :v" />
+                  <Label layoutX="314.0" layoutY="194.0" prefHeight="17.0" prefWidth="162.0" text="Mình bỏ game nên bán rẻ nhé" />
+                  <Label layoutX="412.0" layoutY="219.0" prefHeight="17.0" prefWidth="64.0" text="1 triệu thôi" />
+                  <Label layoutX="56.0" layoutY="240.0" prefHeight="17.0" prefWidth="128.0" text="Bạn đọc mình stk nhé" />
+                  <Label layoutX="56.0" layoutY="280.0" prefHeight="17.0" prefWidth="148.0" text="Mình chuyển trước 100k" />
+                  <Label layoutX="260.0" layoutY="325.0" prefHeight="17.0" prefWidth="216.0" text="STK: 0359701809 ngân hàng cake nhé :V" />
+                  <Label layoutX="354.0" layoutY="797.0" prefHeight="17.0" prefWidth="117.0" text="MK : quan17032004" />
+                  <Label layoutX="56.0" layoutY="744.0" text="Bạn cho mình mượn nick để check với" />
+               </children></Pane>
+         </content>
+      </ScrollPane>
+      <TextField fx:id="tf" layoutX="-1.0" layoutY="603.0" prefHeight="38.0" prefWidth="425.0" />
+      <Button fx:id="send" layoutX="425.0" layoutY="604.0" mnemonicParsing="false" onAction="#send" prefHeight="38.0" prefWidth="52.0" text="Send" />
+      <Label fx:id="label" />
+   </children>
+</AnchorPane>
